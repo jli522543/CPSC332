@@ -1,0 +1,52 @@
+<HTML>
+	<HEAD>
+		<TITLE>
+			CPSC 332-04 Spring 2023 Term Project
+			Carla Jacobsen	890160617
+			Justin Sohn		885830887
+			Jackie Li		886519750
+		</TITLE>
+		<HR>
+		<H1>CSUF School Database for Students and Professors</H1>
+		<HR>
+	</HEAD>
+	<BODY>
+		<FORM METHOD=POST ACTION="Prof_Info.php">
+			<b>
+				Professors: 
+				Please input your Social Security Number to recieve information on the courses you are assigned to teach:
+			</b>
+			<pre>
+				<b>Professor SSN:</b> <input SIZE=9 maxlength=9 NAME="p_ssn" value="">
+			</pre>
+		</FORM>
+		<FORM METHOD=POST ACTION="Prof_Grades.php">
+			<b>
+				Professors:
+				Please input a course number and a section number to see how many students have a certain grade in that section:
+			</b>
+			<pre>
+				<b>Course Number:</b> <input SIZE=10 maxlength=10 NAME="course_no" value="">
+				<b>Section Number:</b> <input SIZE=4 maxlength=4 NAME="section_no" value="">
+			</pre>
+		</FORM>
+		<FORM METHOD=POST ACTION="Stu_Courses.php">
+			<b>
+				Students:
+				Please input a course number to see information about the sections from that course:
+			</b>
+			<pre>
+				<b>Course Number:</b> <input SIZE=10 maxlength=10 NAME="course_no" value="">
+			</pre>
+		</FORM>
+		<FORM METHOD=POST ACTION="Stu_History.php">
+			<b>
+				Students:
+				Please input your Campus Wide ID to see your course history:
+			</b>
+			<pre>
+				<b>CWID:</b> <input SIZE=9 maxlength=9 NAME="stu_cwid" value="">
+			</pre>
+		</FORM>
+	</BODY>
+</html>
