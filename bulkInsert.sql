@@ -1,20 +1,20 @@
 
 # Professor Information ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------#
 INSERT INTO Professor (p_ssn, p_salary, p_title, p_sex, p_name, p_address, p_phone)
-VALUES ('112233344', '123444', 'Dr', 'M', 'Tuffy Brown', '"CSU, Fullerton 800 N. State College Blvd. Fullerton, CA 92831"', '718-432-4324');
+VALUES ('112233344', '123444', 'Dr', 'M', 'Tuffy Brown', 'CSU, Fullerton 800 N. State College Blvd. Fullerton, CA 92831', '7184324324');
 
 INSERT INTO Professor (p_ssn, p_salary, p_title, p_sex, p_name, p_address, p_phone)
-VALUES ('556677888', '567888', 'Dr', 'M', 'Tuffy Smith', '"CSU, Fullerton 800 N. State College Blvd. Fullerton, CA 92831"', '714-232-4324');
+VALUES ('556677888', '567888', 'Dr', 'M', 'Tuffy Smith', 'CSU, Fullerton 800 N. State College Blvd. Fullerton, CA 92831', '7142324324');
 
 INSERT INTO Professor (p_ssn, p_salary, p_title, p_sex, p_name, p_address, p_phone)
-VALUES ('999900000', '999999', 'Dr', 'F', 'Carla CSUF', '"CSU, Fullerton 800 N. State College Blvd. Fullerton, CA 92831"', '626-123-4589');
+VALUES ('999900000', '999999', 'Dr', 'F', 'Carla CSUF', 'CSU, Fullerton 800 N. State College Blvd. Fullerton, CA 92831', '6261234589');
 
 # Department Information ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------#
 INSERT INTO Department (dept_no, dept_chair, dept_name, dept_phone, dept_office)
-VALUES ('6789', '999900000', 'Computer Science', '678-678-9900', 'CS 500');
+VALUES ('6789', '999900000', 'Computer Science', '6786789900', 'CS 500');
 
 INSERT INTO Department (dept_no, dept_chair, dept_name, dept_phone, dept_office)
-VALUES ('1234', '112233344', 'Engineering', '123-123-1234', 'ECS 600');
+VALUES ('1234', '112233344', 'Engineering', '1231231234', 'ECS 600');
 
 # Course Information ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------#
 INSERT INTO Course (course_no, course_dept, course_units, course_book, course_title, course_prereq)
@@ -31,28 +31,28 @@ VALUES ('150', '1234', '3', 'Its not rocket surgery its engineering', 'Rocket en
 
 # Student Information ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------#
 INSERT INTO Student (stu_cwid, stu_Major, stu_Name, stu_Phone, stu_Address)
-VALUES ('123456789', '6789', 'Tuffy Titan', '098-765-4321', '"CSU, Fullerton 800 N. State College Blvd. Fullerton, CA 92831"');
+VALUES ('123456789', '6789', 'Tuffy Titan', '0987654321', 'CSU, Fullerton 800 N. State College Blvd. Fullerton, CA 92831');
 
 INSERT INTO Student (stu_cwid, stu_Major, stu_Name, stu_Phone, stu_Address)
-VALUES ('135791357', '1234', 'Troy Angeles', '975-319-7531', '"USC, 135 S Trojan Street, Los Angeles, CA 90048"');
+VALUES ('135791357', '1234', 'Troy Angeles', '9753197531', 'USC, 135 S Trojan Street, Los Angeles, CA 90048');
 
 INSERT INTO Student (stu_cwid, stu_Major, stu_Name, stu_Phone, stu_Address)
-VALUES ('024680246', '6789', 'Briana Angeles', '864-208-6420', '"UCLA, 246 W Bruin Street, Los Angeles, CA 90274"');
+VALUES ('024680246', '6789', 'Briana Angeles', '8642086420', 'UCLA, 246 W Bruin Street, Los Angeles, CA 90274');
 
 INSERT INTO Student (stu_cwid, stu_Major, stu_Name, stu_Phone, stu_Address)
-VALUES ('101010101', '1234', 'Antonio Irvine', '101-101-1001', '"UCI, 101 N Anteater Street, Irvine, CA 92602"');
+VALUES ('101010101', '1234', 'Antonio Irvine', '1011011001', 'UCI, 101 N Anteater Street, Irvine, CA 92602');
 
 INSERT INTO Student (stu_cwid, stu_Major, stu_Name, stu_Phone, stu_Address)
-VALUES ('202322023', '1234', 'Homer Fullerton', '202-202-2023', '"Fullerton College, 2023 S Chapman Avenue, Fullerton, CA 92831"');
+VALUES ('202322023', '1234', 'Homer Fullerton', '2022022023', 'Fullerton College, 2023 S Chapman Avenue, Fullerton, CA 92831');
 
 INSERT INTO Student (stu_cwid, stu_Major, stu_Name, stu_Phone, stu_Address)
-VALUES ('987654321', '1234', 'Timothy Titan', '123-456-7890', '"CSU, Fullerton 800 N. State College Blvd. Fullerton, CA 92831"');
+VALUES ('987654321', '1234', 'Timothy Titan', '1234567890', 'CSU, Fullerton 800 N. State College Blvd. Fullerton, CA 92831');
 
 INSERT INTO Student (stu_cwid, stu_Major, stu_Name, stu_Phone, stu_Address)
-VALUES ('112233445', '1234', 'Travis Titan', '999-888-7766', '"CSU, Fullerton 800 N. State College Blvd. Fullerton, CA 92831"');
+VALUES ('112233445', '1234', 'Travis Titan', '9998887766', 'CSU, Fullerton 800 N. State College Blvd. Fullerton, CA 92831');
 
 INSERT INTO Student (stu_cwid, stu_Major, stu_Name, stu_Phone, stu_Address)
-VALUES ('998877665', '1234', 'Fred Titan', '111-222-3344', '"CSU, Fullerton 800 N. State College Blvd. Fullerton, CA 92831"');
+VALUES ('998877665', '1234', 'Fred Titan', '1112223344', 'CSU, Fullerton 800 N. State College Blvd. Fullerton, CA 92831');
 
 # Section Information ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------#
 INSERT INTO Section (section_no, section_course, section_professor, section_start, section_end, section_room, section_seats, section_days)
