@@ -5,7 +5,7 @@ CREATE TABLE Professor(
     p_sex enum('M','F'),
     p_name varchar(50),
     p_address varchar(100),
-    p_phone char(10),
+    p_phone varchar(10),
     PRIMARY KEY(p_ssn)
 );
 
@@ -20,7 +20,7 @@ CREATE TABLE Department (
     dept_no char(4),
     dept_chair char(9),
     dept_name varchar(20),
-    dept_phone char(10),
+    dept_phone varchar(10),
     dept_office varchar(10),
     PRIMARY KEY(dept_no, dept_chair),
     FOREIGN KEY(dept_chair) References Professor(p_ssn)
@@ -30,7 +30,7 @@ CREATE TABLE Student (
     stu_cwid char(9),
     stu_Major char(4),
     stu_Name varchar(50),
-    stu_Phone char(10),
+    stu_Phone varchar(10),
     stu_Address varchar(255),
     PRIMARY KEY(stu_cwid, stu_Major),
     FOREIGN KEY(stu_major) References Department(dept_no)
@@ -40,8 +40,9 @@ CREATE TABLE Course(
     course_no varchar(10),
     course_dept char(4),
     course_units int,
-    course_book varchar(30),
-    course_title varchar(20),
+    course_book varchar(100),
+    course_title varchar(30),
+    course_prereq varchar(50),
     PRIMARY KEY (course_no, course_dept),
     FOREIGN KEY(course_dept) References Department(dept_no)
 );
