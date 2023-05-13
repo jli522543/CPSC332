@@ -2,9 +2,9 @@
 
 ## Group Members
 
-1. Carla Jacobsen 890160617
-2. Jackie Li		886519750
-3. Justin Sohn		885830887
+1. Carla Jacobsen  890160617  Section: 04
+2. Jackie Li		886519750     Section: 04
+4. Justin Sohn		885830887   Section: 04
 
 ## Programming Language
 
