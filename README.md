@@ -13,6 +13,7 @@ This project uses the following Programming Language
 2. PHP
 3. SQL
 
-## How the Access the Website 
+## Accessing the Website 
 
-http://ecs.fullerton.edu/~cs332u22/
+
+Through this link:  http://ecs.fullerton.edu/~cs332u22/
