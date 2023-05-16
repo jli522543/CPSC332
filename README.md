@@ -3,8 +3,8 @@
 ## Group Members
 
 1. Carla Jacobsen CWID:0617 Section: 04
-2. Jackie Li CWID:9750 Section: 04
-3. Justin Sohn CWID:0887 Section: 04
+2. Jackie Li      CWID:9750 Section: 04
+3. Justin Sohn    CWID:0887 Section: 04
 
 ## Programming Language
 
